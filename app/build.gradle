@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     signingConfigs {
-        config {
+        release {
 
         }
     }
