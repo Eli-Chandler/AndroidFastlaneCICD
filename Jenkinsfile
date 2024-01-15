@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Install bundle') {
             steps {
+                bat 'bundle config path vendor/bundle'
                 bat 'bundle install'
             }
         }
