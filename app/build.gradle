@@ -20,7 +20,7 @@ android {
         versionName "1.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        signingConfig signingConfigs.config
+        signingConfig signingConfigs.release
     }
 
     buildTypes {
